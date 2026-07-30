@@ -1,7 +1,26 @@
 aid: lola
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lola.png
 name: Lola
-description: 'Lola is a company surfaced as a portfolio company of accel, gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Lola is a consumer travel booking platform at lola.com that lets travelers
+  discover, compare, and book flights, hotels, and trips in one place, built around
+  insider access to the world''s leading travel brands, competitive rates, and a simple
+  "just ask" booking experience. The lola.com domain was previously the Boston-based
+  corporate travel and expense-management startup founded by Kayak veterans Paul English
+  and Bill O''Donnell (backed by Accel and GV, more than $80M raised) which wound down
+  operations in 2021 with its technology acquired by Capital One; the domain now hosts
+  this new consumer travel product. No public API or developer program is currently
+  published — this profile captures the provider''s public web and security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/lola/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Travel
+- Booking
+- Trip Planning
+- Flights
+- Hotels
+- Travel Aggregator
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.lola.com
+  url: https://lola.com
+- type: TermsOfService
+  url: https://lola.com/terms
+- type: PrivacyPolicy
+  url: https://lola.com/privacy
+- type: Support
+  url: https://lola.com/contact
+- type: Login
+  url: https://preview.lola.com
+- type: DomainSecurity
+  url: security/lola-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
