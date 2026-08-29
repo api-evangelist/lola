@@ -33,6 +33,9 @@ description: 'Lola is a consumer travel booking platform at lola.com that lets t
   this new consumer travel product. No public API or developer program is currently
   published — this profile captures the provider''s public web and security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/lola/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "No public API or developer program is currently published — this profile captures the provider's public web and security posture."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
